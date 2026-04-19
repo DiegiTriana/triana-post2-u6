@@ -21,7 +21,7 @@ mvn exec:java
 ## Resultado esperado
 El flujo final mantiene los casos de negocio, reduce anidamiento y mejora testabilidad al separar decisiones y acciones.
 
-## Evidencias de Verificacion (2026-04-17 16:26:56)
+## Evidencias de Verificacion
 
 | Checkpoint | Estado | Evidencia |
 |---|---|---|
@@ -34,28 +34,4 @@ El flujo final mantiene los casos de negocio, reduce anidamiento y mejora testab
 
 ### Salida de ejecucion
 
-```text
-Procesando pedido: P001
-  Estrategia: VIP | Descuento: 45%
-  Total final: $660.00
-  [ALERTA] Pedido de alto valor: P001
-Pedido P001 procesado.
-Procesando pedido: P002
-  Estrategia: VIP | Descuento: 30%
-  Total final: $420.00
-Pedido P002 procesado.
-Procesando pedido: P003
-  Estrategia: PREMIUM | Descuento: 15%
-  Total final: $255.00
-Pedido P003 procesado.
-Procesando pedido: P004
-  Estrategia: ESTANDAR | Descuento: 8%
-  Total final: $138.00
-Pedido P004 procesado.
-Procesando pedido: P005
-  Estrategia: ESTANDAR | Descuento: 0%
-  Total final: $80.00
-Pedido P005 procesado.
-```
-
-
+![console](captura1.png)
